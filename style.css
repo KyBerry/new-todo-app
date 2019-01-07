@@ -1,0 +1,61 @@
+body {
+    background-color: #f0ead6;
+}
+
+.backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    background: white;
+}
+
+.modal button {
+    background: #fa923f;
+    color: white;
+    border: 1px solid #521751;
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.modal button:hover, 
+.modal button:active {
+    background: #521751;
+}
+
+.modal button:focus {
+    outline: none;
+}
+
+header {
+    background-color: #FF9855;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+[type="text"] {
+    font-size: 16px;
+    text-align: center;
+}
+
+ .todo-style {
+     background-color: white;
+     cursor: pointer;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+#add-todo button {
+    background-color: #FF9855;
+    font-weight: bolder;
+    color: white; 
+    border: none;
+} 

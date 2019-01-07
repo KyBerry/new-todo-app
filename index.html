@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div class="modal">
+        <h1>Remove TO-DO</h1>
+        <p>Click okay to remove or cancel to go back</p>
+        <a href="index.html"><button>Remove TO-DO</button></a>
+        <a href="index.html"><button>Cancel</button></a>
+    </div>
+   
+    <header>
+        <h1>TO-DO'S</h1>
+    </header>
+    <input id="filter-todos" type="text" placeholder="FILTER TODOS">
+    <label>
+        <input type="checkbox" id="hide-completed"> Hide completed 
+    </label>
+    <div id="todos"></div>
+    <form id="add-todo">
+        <input type="text" id="todoText" placeholder="ADD TODO">
+        <br/>
+        <button>ADD</button>
+    </form>
+    <script src="uuid.js"></script>
+    <script src="functions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
